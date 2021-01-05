@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 10px 80px;
+}
+p {
+  color: dimgray;
+  text-align: justify;
+}
+h1 {
+  font-size: 50px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.tomato-color {
+  color: orangered;
+}
+h2 {
+}
+h3 {
+  padding-bottom: 10px;
+}
+section {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.nav-section {
+  background-color: teal;
+}
+.nav-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav-section ul {
+}
+.nav-section ul li {
+  list-style-type: none;
+  padding: 25px;
+  float: right;
+}
+.nav-section ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+}
+.nav-section ul li a:hover {
+  color: tomato;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+/* profile section starts here */
+.profile-section {
+}
+.profile-image {
+  background-image: url(images/coffee.jpg);
+  height: 400px;
+}
+.profile-image h3 {
+  padding: 10px 15px;
+  background-color: white;
+  display: inline-block;
+  margin: 20px 20px;
+  border-radius: 5px;
+}
+.profile-image-h3:hover {
+  color: orange;
+  text-decoration: underline;
+  background-color: gray;
+}
+.profile-image p h3 {
+  background-color: white;
+  margin-top: -10px;
+  border-radius: 5px;
+}
+/* profile section ends here */
+
+/* offer-section starts here */
+.offer-section {
+  width: 100%;
+  margin: 0 auto;
+}
+.offer-section .top h2 {
+  border-bottom: 3px dashed blue;
+  width: 200px;
+  margin: 0 auto;
+  color: lightsalmon;
+}
+.design {
+  padding: 20px;
+  width: 25%;
+  background-color: lightgray;
+  float: left;
+  margin-bottom: 20px;
+}
+.offer-section .design h2 {
+  margin-bottom: 20px;
+}
+
+/* offer-section ends here */
